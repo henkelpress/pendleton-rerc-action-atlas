@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://henkelpress.github.io/pendleton-rerc-action-atlas/sitemap.xml

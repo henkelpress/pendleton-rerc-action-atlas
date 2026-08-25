@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[8500,["345","static/chunks/app/not-found-29e38d70b116b02b.js"],""]
+3:I[1265,["345","static/chunks/app/not-found-29e38d70b116b02b.js"],"default"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"system-state","children":[["$","h1",null,{"children":"This feature path does not exist."}],["$","p",null,{"children":"Return to the planner or continue to the official Pendleton County tourism website."}],["$","div",null,{"children":[["$","$L2",null,{"className":"intro-action","href":"/","children":"Open planner"}],["$","a",null,{"href":"https://www.pendletoncountywv.com/","children":["Official site ",["$","$L3",null,{"iconNode":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]],"className":"lucide-arrow-up-right"}]]}]]}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7daqvE8g7cL_Sd4Cbuq1g"}
+6:null
