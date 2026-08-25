@@ -1,0 +1,30 @@
+field_name,alias,data_type,description,units,allowed_values,null_meaning,source,notes
+huc12,12-digit hydrologic unit code,string,Unique 12-digit identifier for the USGS subwatershed,,12 numeric characters,Missing source identifier,USGS Watershed Boundary Dataset,A hydrologic boundary not an administrative jurisdiction
+name,Subwatershed name,string,Official name of the HUC-12 subwatershed,,,,USGS Watershed Boundary Dataset,
+states,States,string,State abbreviations intersected by the HUC-12,,Comma-separated state abbreviations,Not reported,USGS Watershed Boundary Dataset,
+areaacres,Area in acres,number,Source-reported HUC-12 polygon area,acres,,Not reported,USGS Watershed Boundary Dataset,
+areasqkm,Area in square kilometers,number,Source-reported HUC-12 polygon area,square kilometers,,Not reported,USGS Watershed Boundary Dataset,
+hutype,Hydrologic unit type,string,USGS code describing the hydrologic-unit configuration,,S Standard; C Closed Basin; F Frontal; M Multiple Outlet; W Water; I Island; U Unclassified,Not reported,USGS Watershed Boundary Dataset,See the USGS WBD data dictionary for complete code definitions
+tohuc,Downstream hydrologic unit,string,Hydrologic unit code receiving flow from the HUC-12 where applicable,,Hydrologic unit code,No downstream code reported,USGS Watershed Boundary Dataset,
+loaddate,Source load date,date,Date the source feature was loaded into the national service,date,,Not reported,USGS Watershed Boundary Dataset,Not the date every boundary was originally surveyed
+reportingcycle,Reporting cycle,integer,Integrated Report cycle associated with the EPA assessment summary,year,,Not reported,EPA ATTAINS,Current public service returned 2022 for sampled Pendleton records
+assessmentunitidentifier,Assessment unit ID,string,State-reported identifier for the assessed water unit,,,,EPA ATTAINS,
+assessmentunitname,Assessment unit name,string,State-reported waterbody or assessment-unit name,,,,EPA ATTAINS,
+overallstatus,Overall status,string,EPA ATTAINS summary of whether the reported assessment unit supports its assessed uses,,Fully Supporting; Not Supporting; Not Assessed; other source-reported values,No status reported,EPA ATTAINS,Not Assessed does not mean unimpaired
+ircategory,Integrated Report category,string,Clean Water Act Integrated Report category reported for the assessment unit,,Source-reported IR categories,No category reported,EPA ATTAINS,Interpret with the current state Integrated Report
+isassessed,Assessed flag,string,Whether the assessment unit has an assessment decision in the reporting cycle,,Y; N,Not reported,EPA ATTAINS,
+isimpaired,Impaired flag,string,Whether the assessment unit is reported as impaired in ATTAINS,,Y; N,Not reported,EPA ATTAINS,A no value is not equivalent to no water-quality concern
+on303dlist,On 303(d) list flag,string,Whether the assessment unit is reported on the Clean Water Act Section 303(d) list,,Y; N,Not reported,EPA ATTAINS,
+hastmdl,Has TMDL flag,string,Whether ATTAINS reports a total maximum daily load for the assessment unit,,Y; N,Not reported,EPA ATTAINS,
+waterbodyreportlink,EPA waterbody report,string,Link to the source EPA waterbody report,URL,,No link reported,EPA ATTAINS,Use for detailed cause and use information
+NIDID,National Inventory of Dams ID,string,Unique national identifier for the dam record,,,,USACE National Inventory of Dams,
+NAME,Dam name,string,Primary name of the dam in the National Inventory of Dams,,,,USACE National Inventory of Dams,
+OTHER_NAMES,Other dam name,string,Alternate name including recreation-area names when reported,,,,USACE National Inventory of Dams,
+RIVER_OR_STREAM,River or stream,string,Watercourse associated with the dam record,,,,USACE National Inventory of Dams,
+PRIMARY_PURPOSE,Primary purpose,string,Primary purpose reported for the dam,,,,USACE National Inventory of Dams,
+NID_HEIGHT,Dam height,number,National Inventory of Dams height measure,feet,,Not reported,USACE National Inventory of Dams,
+YEAR_COMPLETED,Year completed,integer,Reported year the dam was completed,year,,Not reported,USACE National Inventory of Dams,
+HAZARD_POTENTIAL,Hazard potential,string,Potential consequences if a dam failure occurs,,Low; Significant; High; Undetermined,Not reported,USACE National Inventory of Dams,Not a current condition rating
+CONDITION_ASSESSMENT,Condition assessment,string,Condition category reported in the National Inventory of Dams,,Source-reported condition categories,Not publicly reported,USACE National Inventory of Dams,Verify with the responsible regulator
+LAST_INSPECTION_DATE,Last inspection date,date,Most recent inspection date reported by the source,date,,Not reported,USACE National Inventory of Dams,
+OPERATIONAL_STATUS,Operational status,string,Current operating status reported by the source,,,,USACE National Inventory of Dams,
