@@ -1,0 +1,36 @@
+{
+  "title": "Pendleton County Community Data Atlas public map collection",
+  "summary": "Four ArcGIS web maps supporting community, traffic, infrastructure, resilience, recreation, trail, park, public-facility, and tourism exploration in Pendleton County, West Virginia.",
+  "description": "Public interactive maps embedded in the EPA RERC Pendleton County Community Data Atlas. The maps combine project-maintained reference layers with source-agency services. They support exploration and do not rank projects, determine site eligibility, or replace source-agency review.",
+  "publication_target": "GitHub Pages dashboard with public ArcGIS Online web maps",
+  "geometry_type": "Mixed point, line, and polygon web-map collection",
+  "crs": "Web map display uses WGS 1984 Web Mercator Auxiliary Sphere; project point coordinates originate in WGS 84 (EPSG:4326).",
+  "extent": [-79.72, 38.34, -79.04, 39.05],
+  "source_lineage": [
+    "U.S. Census Bureau TIGERweb and 2024 ACS 5-year",
+    "West Virginia Department of Transportation AADT services",
+    "USDA Forest Service administrative-boundary and trail services",
+    "FEMA National Flood Hazard Layer",
+    "USACE National Inventory of Dams",
+    "OpenStreetMap mapped civic, park, trail, and tourism inventory with project review",
+    "Official locality, operator, and Pendleton County visitor sources"
+  ],
+  "update_cadence": "Source-dependent; source release years and limitations remain visible in the dashboard.",
+  "steward": "Pendleton County EPA RERC dashboard project team; source agencies remain authoritative data stewards.",
+  "contact": "Use the linked source agency or Pendleton County Convention and Visitors Bureau contact for source-specific questions.",
+  "use_constraints": "Public reference use. Verify current conditions, ownership, access, flood determinations, traffic count years, facility status, and safety information with the responsible source. Mapped inventories are not guaranteed exhaustive.",
+  "web_maps": [
+    {"title":"Communities and Census districts","item_id":"76b84d3e049d41fea1de9bab62ae2eb1","layers":["Communities and gateways","2024 Census districts"]},
+    {"title":"Traffic and AADT","item_id":"e6ad9ed1481c405ebeb9406e241d1f3c","layers":["Communities and gateways","AADT segments","AADT stations","2024 Census districts"]},
+    {"title":"Infrastructure and resilience","item_id":"bd06a63aee5e4a0bb73f18b26d02e8b5","layers":["Communities and gateways","Mapped civic and public places","National Inventory of Dams","FEMA flood hazard","National forest boundaries","2024 Census districts"]},
+    {"title":"Recreation","item_id":"59a708523baa40c98983d21778fee2cc","layers":["Recreation assets","Mapped tourism places","Mapped park points","Mapped park areas","Mapped local trails","Mapped trail areas","Official Forest Service trails","National forest boundaries"]}
+  ],
+  "public_claim_limits": [
+    "Community points are orientation references, not service-area boundaries.",
+    "District statistics are not place-specific statistics.",
+    "Franklin and Brandywine place profiles use separate Census place geographies.",
+    "Traffic collection years vary by feature.",
+    "Flood layers do not constitute a parcel-level determination.",
+    "Civic, park, trail, and tourism inventories may be incomplete or change over time."
+  ]
+}

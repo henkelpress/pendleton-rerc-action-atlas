@@ -1,0 +1,13 @@
+field_name,alias,data_type,description,units,allowed_values,null_meaning,source,notes
+NAME,Place name,string,Public name of the mapped community facility recreation asset park trail or tourism place,,,,Source-specific,Used for map labels and popup titles
+TYPE,Place type,string,Plain-language type assigned to a named community or gateway,,Town; Census-designated place; Community; Recreation gateway,Unknown or not assigned,Project review and official source,Community points are references not boundaries
+CATEGORY,Place category,string,Plain-language category used to group mapped facilities parks trails or tourism places,,Source-specific categories,Not categorized,OpenStreetMap or source operator,Inventory may not be exhaustive
+DISTRICT,Census district,string,2024 Census county subdivision containing the mapped community point,,Central; Eastern; Western,Not spatially resolved,U.S. Census Bureau TIGERweb,Provides broad context only
+DIST_POP,District population,integer,2024 ACS 5-year population estimate for the containing Census district,people,,Not available,U.S. Census Bureau 2024 ACS,Not a place-level estimate
+DIST_INC,District median household income,number,2024 ACS 5-year median household income estimate for the containing Census district,2024 dollars,,Suppressed or unavailable,U.S. Census Bureau 2024 ACS,Not a place-level estimate
+DIST_HOUS,District housing units,integer,2024 ACS 5-year housing-unit estimate for the containing Census district,housing units,,Not available,U.S. Census Bureau 2024 ACS,Not a place-level estimate
+DIST_POV,District poverty rate,number,2024 ACS 5-year poverty estimate for the containing Census district,percent,,Not available,U.S. Census Bureau 2024 ACS,Not a place-level estimate
+NEAR_REC,Mapped recreation assets within 10 miles,integer,Count of project-mapped recreation reference points within ten straight-line miles of the community point,assets,,No mapped asset within threshold,Project calculation,Not an exhaustive facility count or travel-time measure
+OPERATOR,Operator,string,Named organization responsible for the mapped place when available,,,,Not identified,Source-specific,Verify current responsibility
+WEBSITE,Official website,string,Source or operator web address associated with the mapped record,URL,,,No official link identified,Source-specific,Open links to verify current conditions
+SOURCE,Source and coverage note,string,Plain-language provenance or coverage limitation for the mapped record,,,,Not documented,Project review,Read before interpreting the record
